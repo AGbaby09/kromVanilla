@@ -324,3 +324,57 @@ main .vid .text h1{
     -webkit-backdrop-filter: blur(14.7px);
     color: white;
 }
+
+#fleetz{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 0% 15%;
+    border: 1px solid red;
+}
+#fleetz>h1{
+    border: 1px solid blue;
+    width: 50%;
+    height: 10%;
+    margin: 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cherry Swash', serif;
+    font-size: 3.5vh;
+    text-align: center;
+}
+#fleetz>.socials{
+    border: 1px solid black;
+    width: 50%;
+    height: 5%;
+    margin: 0 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fleetz>.socials>a{
+    font-size: 3vh;
+    color: silver;
+    display: grid;
+    text-decoration: none;
+    margin: 0 5%;
+    border:1px solid silver;
+    border-radius: 6px;
+    padding: 0.5%;
+}
+#fleetz>.socials>a>i{
+    margin: auto;
+}
+#fleetz>.socials>:nth-child(1):hover{
+    /* border-color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); */
+    color: #dc2743;
+    border-color: #dc2743;
+}
+#fleetz>.socials>:nth-child(2):hover{
+    color: blue;
+    border-color: blue;
+}
+#fleetz>.socials>:nth-child(3):hover{
+    color: yellow;
+}
