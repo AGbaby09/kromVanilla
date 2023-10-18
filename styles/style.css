@@ -35,7 +35,7 @@ header{
     z-index: 50;
 }
 header #logo{
-    color: grey;
+    color: rgb(84, 83, 83);
     font-family: ematane;
     height: 100%;
     width: 15%;
@@ -77,7 +77,7 @@ header nav ul li a{
 header button{
     margin-right: 3%;
     font-size: 2.5vh;
-    color: grey;
+    color: rgb(84, 83, 83);
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -426,6 +426,7 @@ main .vid .text h1{
     transition: 0.1s linear;
 }
 #fleetz>#carz>.link>a:hover{
+    border: 1px solid rgb(170, 170, 170, 0.3);
     background: rgba(255, 255, 255, 0);
     backdrop-filter: blur(14.7px);
     -webkit-backdrop-filter: blur(14.7px);
@@ -433,4 +434,72 @@ main .vid .text h1{
 }
 #fleetz>#carz>.link>a>i{
     /* margin: 0 5%; */
+}
+
+#event{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 0% 15%;
+}
+#event>.logo{
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    left: 0;
+    top: 0;
+}
+#event>.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#event>.desc{
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    top: 0;
+    right: 0;
+}
+#event>.desc>h1{
+    width: 100%;
+    height: 15%;
+    padding-left: 5%;
+    font-family: 'Cherry Swash', serif;
+    font-size: 4vh;
+    margin-top: 8%;
+}
+#event>.desc>p{
+    font-family: 'Poppins', serif;
+    font-size: 1.7vh;
+    padding: 1% 5%;
+    color: grey;
+}
+#event>.desc>p>span{
+    font-family: ematane;
+}
+#event>#video{
+    position: absolute;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 60%;
+    bottom: 0;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    display: grid;
+}
+#event>#video>button{
+    position: relative;
+    margin: auto;
+    background: transparent;
+    border: none;font-size: 6vh;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    width: 70%;
+    height: 30%;
+    margin: 5% 15%;
 }
