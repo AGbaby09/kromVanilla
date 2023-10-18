@@ -68,6 +68,7 @@ header nav ul li a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 1.7vh;
 }header nav ul li a i{
     font-size: 2vh;
 }header nav ul li a:hover{
