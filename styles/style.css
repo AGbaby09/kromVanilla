@@ -330,10 +330,10 @@ main .vid .text h1{
     width: 70%;
     height: 100%;
     margin: 0% 15%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #fleetz>h1{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 50%;
     height: 10%;
     margin: 0 25%;
@@ -345,7 +345,7 @@ main .vid .text h1{
     text-align: center;
 }
 #fleetz>.socials{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     height: 5%;
     margin: 0 25%;
@@ -362,6 +362,7 @@ main .vid .text h1{
     border:1px solid silver;
     border-radius: 6px;
     padding: 0.5%;
+    transition: 0.3s linear;
 }
 #fleetz>.socials>a>i{
     margin: auto;
@@ -377,4 +378,25 @@ main .vid .text h1{
 }
 #fleetz>.socials>:nth-child(3):hover{
     color: yellow;
+    border-color: yellow;
+}
+#fleetz>p{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid green; */
+    font-family: "Poppins", sans-serif;
+    font-size: 1.7vh;
+    color: gray;
+    padding: 1% 15%;
+    text-align: center;
+}
+#fleetz>#carz{
+    width: 100%;
+    height: 67%;
+    border-radius: 16px;
+    /* border: 1px solid gold; */
+    background: url("../assets/car2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
