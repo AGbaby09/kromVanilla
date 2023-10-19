@@ -174,3 +174,19 @@ form>p>a:hover{
     background: black;
     color: white;
 }
+
+
+
+
+@media only screen  and (min-width : 1320px) {
+    /* Styles */
+    body{
+        background-color: cornsilk;
+    }
+
+
+    form>p>a{
+        padding: 2% 2%;
+    }
+}
+    
