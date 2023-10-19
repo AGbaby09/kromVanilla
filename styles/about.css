@@ -58,8 +58,20 @@ header nav ul{
     align-items: center;
     justify-content: space-evenly;
     list-style-type: none;
+}header nav ul li:last-child a{
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255, 0.7);
+    width: 200%;
+    height: 4.5vh;
+    border-radius: 0.5vh;
+    transition: 0.3s ease;
+}header nav ul li:last-child a:hover{
+    color: white;
+    background-color: black;
 }
 header nav ul li{
+    position: relative;
+    border-radius: 1vh;
 }
 header nav ul li a{
     text-decoration: none;

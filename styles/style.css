@@ -27,7 +27,7 @@ header{
     width: 70%;
     margin: 1.5% 15%;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
+    border-radius: 1.5vh;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(14.7px);
     -webkit-backdrop-filter: blur(14.7px);
@@ -44,8 +44,6 @@ header #logo{
     font-size: 2vh;
     margin-left: 2%;
 }
-header #logo p{
-}
 header nav{
     width: 50%;
     height: 100%;
@@ -58,9 +56,24 @@ header nav ul{
     justify-content: space-evenly;
     list-style-type: none;
 }
+header nav ul li:last-child a{
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255, 0.7);
+    width: 200%;
+    height: 4.5vh;
+    border-radius: 0.5vh;
+    transition: 0.3s ease;
+}header nav ul li:last-child a:hover{
+    color: white;
+    background-color: black;
+}
 header nav ul li{
+    position: relative;
+    border-radius: 1vh;
 }
 header nav ul li a{
+    width: 100%;
+    height: 100%;
     text-decoration: none;
     color: gray;
     font-family: "Poppins", sans-serif;
@@ -91,7 +104,6 @@ main{
     position: relative;
     width: 100%;
     height: 100%;
-    /* background-color: #aaa; */
     display: grid;
 }
 main .vid{
@@ -100,7 +112,7 @@ main .vid{
     height: 80%;
     margin: auto;
     top: 4%;
-    border-radius: 16px;
+    border-radius: 1.5vh;
     background: black;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -133,7 +145,6 @@ main .vid .text h1{
     width: 70%;
     height: 35%;
     margin: 0% 15%;
-    /* border: 1px solid red; */
 }
 #section-welcome h1{
     font-family: 'Cherry Swash', serif;
@@ -144,7 +155,6 @@ main .vid .text h1{
     padding: 2% 0;
 }
 #section-welcome p{
-    /* font-family: 'Alfa Slab One', serif; */
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 1.7vh;
@@ -155,7 +165,6 @@ main .vid .text h1{
     font-family: ematane;
 }
 #section-welcome>div{
-    /* border: 1px solid red; */
     position: relative;
     display: flex;
     align-items: center;
@@ -184,7 +193,7 @@ main .vid .text h1{
     width: 70%;
     height: 45%;
     margin: 1% 15% 5% 15%;
-    border-radius: 16px;
+    border-radius: 1.5vh;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
@@ -247,7 +256,7 @@ main .vid .text h1{
     position: relative;
     width: 49%;
     height: 90%;
-    border-radius: 16px;
+    border-radius: 1.5vh;
 }
 #explore>#bottom{
     align-items: flex-start;
@@ -257,9 +266,7 @@ main .vid .text h1{
     position: relative;
     width: 100%;
     height: 90%;
-    border-radius: 16px;
-}
-#explore>#bottom>.img>img{
+    border-radius: 1.5vh;
 }
 #explore>div>.img{
     position: relative;
@@ -300,7 +307,6 @@ main .vid .text h1{
     font-size: 2.5vh;
 }
 #explore>div>.img>#link>a{
-    /* border: 1px solid white; */
     border-radius: 50px;
     color: rgb(255, 255, 255, 0.5);
     background-color: rgb(255, 255, 255, 0.2);
@@ -330,10 +336,8 @@ main .vid .text h1{
     width: 70%;
     height: 100%;
     margin: 0% 15%;
-    /* border: 1px solid red; */
 }
 #fleetz>h1{
-    /* border: 1px solid blue; */
     width: 50%;
     height: 10%;
     margin: 0 25%;
@@ -345,7 +349,6 @@ main .vid .text h1{
     text-align: center;
 }
 #fleetz>.socials{
-    /* border: 1px solid black; */
     width: 50%;
     height: 5%;
     margin: 0 25%;
@@ -368,7 +371,6 @@ main .vid .text h1{
     margin: auto;
 }
 #fleetz>.socials>:nth-child(1):hover{
-    /* border-color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); */
     color: #dc2743;
     border-color: #dc2743;
 }
@@ -383,7 +385,6 @@ main .vid .text h1{
 #fleetz>p{
     width: 100%;
     height: 15%;
-    /* border: 1px solid green; */
     font-family: "Poppins", sans-serif;
     font-size: 1.7vh;
     color: gray;
@@ -394,8 +395,7 @@ main .vid .text h1{
     position: relative;
     width: 100%;
     height: 67%;
-    border-radius: 16px;
-    /* border: 1px solid gold; */
+    border-radius: 1.5vh;
     background: url("../assets/car2.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -415,7 +415,6 @@ main .vid .text h1{
 }
 #fleetz>#carz>.link>a{
     border: 1px solid rgb(170, 170, 170, 0.7);
-    /* text-align: center; */
     margin: auto;
     padding:3% 7%;
     display: flex;
@@ -431,9 +430,6 @@ main .vid .text h1{
     backdrop-filter: blur(14.7px);
     -webkit-backdrop-filter: blur(14.7px);
     color: white;
-}
-#fleetz>#carz>.link>a>i{
-    /* margin: 0 5%; */
 }
 
 #event{
@@ -481,11 +477,10 @@ main .vid .text h1{
 }
 #event>#video{
     position: absolute;
-    /* border: 1px solid blue; */
     width: 100%;
     height: 60%;
     bottom: 0;
-    border-radius: 16px;
+    border-radius: 1.5vh;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     display: grid;
 }
