@@ -137,7 +137,7 @@ form>div>input{
     bottom: 0;
     border-radius: 1vh;
     border: none;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
     font-size: 1.7vh;
     font-family: "Poppins", sans-serif;
     padding: 0 5%;
