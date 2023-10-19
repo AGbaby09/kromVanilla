@@ -104,7 +104,8 @@ form{
     margin: auto;
     width: 20%;
     height: 50%;
-    font-family: ematane;
+    /* font-family: ematane; */
+    font-family: "Poppins", sans-serif;
 }
 form>h1{
     text-align: center;
@@ -181,7 +182,7 @@ form>p>a:hover{
 @media only screen  and (min-width : 1320px) {
     /* Styles */
     body{
-        background-color: cornsilk;
+        /* background-color: cornsilk; */
     }
 
 
