@@ -514,9 +514,6 @@ footer{
     
 @media only screen  and (max-width : 550px) {
     /* Styles */
-    body{
-        height: 100svh;
-    }
 
     header{
         width: 90%;
@@ -667,6 +664,7 @@ footer{
     }
     #event>.desc>p{
         width: 100%;
+        padding: 1% 0;
     }
 
     #event>#video{
