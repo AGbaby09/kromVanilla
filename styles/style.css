@@ -557,7 +557,6 @@ footer{
         bottom: 5%;
     }
     #section-welcome a{
-        border: 1px solid teal;
         color: teal;
     }
     
@@ -567,16 +566,45 @@ footer{
         margin: 2% 5%;
     }
     #explore{
-        width: 90%;margin: 10% 5%;
+        width: 90%;margin: 7.5% 5%;
+        height: 75%;
     }
     #explore h1{
         font-size: 3vh;
     }
+    #explore>div>.img{
+        margin-top: 5%;
+    }
     #explore>div{
         flex-direction: column;
     }
-    #xplore>#top>.img{
-        border: 1px solid red;
-        width: 90%;
+    #explore>#top>.img{
+        height: 49%;
+        width: 100%;
+    }
+    #explore>div>.img>img{
+        filter: grayscale(0.5) brightness(0.7);
+        
+    }
+    #explore>div>.img>#link{
+        width: 50%;
+        height: 20%;
+    }
+    #explore>div>.img>#link>a{
+        background-color: rgb(255, 255, 255, 0.2);
+        backdrop-filter: blur(14.7px);
+        -webkit-backdrop-filter: blur(14.7px);
+        color: white;
+        padding: 5% 8%;
+    }
+    #explore>#top{height: 60%;}
+    #explore>#bottom{
+        height: 30%;
+        bottom: 0.35%;
+    }
+
+
+    #fleetz{
+        margin-top: 20%;
     }
 } 
