@@ -558,6 +558,7 @@ footer{
     }
     #section-welcome a{
         color: teal;
+        border: 1px solid teal;
     }
     
     #gallery{
